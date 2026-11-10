@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "MyWallet",
+    "slug": "mywallet",
+    "scheme": "mywallet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.riza.mywallet"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.riza.mywallet",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bdfe6c1a-72a4-47aa-81d2-2dbcc650cd97"
+      }
+    },
+    "owner": "riza2803",
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
