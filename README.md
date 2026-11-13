@@ -26,6 +26,3 @@ npm install
 # Start development server
 npx expo start
 ```
-
-### Download Project
-Apps Download : https://drive.google.com/drive/folders/1W_ejPS_Pe08pmF3O4CUm4ozImcD2pZaq
